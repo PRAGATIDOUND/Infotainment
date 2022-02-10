@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped&family=Quintessential&display=swap');
+form{
+    padding-top: 10%;
+}
+body{
+    
+    background-color:#bbdefb;
+}
+
+.container{
+    background-color:white;
+   
+    margin-top: 1cm;
+  width: 30%;
+  
+
+  border-radius: 10px;
+  padding: 50px;
+}
+h1{
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    text-align:center ;
+    margin-top: 10px;
+    padding-bottom: 20px;
+
+    font: size 40px;
+    color:#1565c0;
+}
+#label{
+    margin-top: 10px;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 4px;
+  }
+  input[type=password]{
+      margin-bottom: 20px;
+  }
+  .button{
+      width:100%;
+      text-align: center;
+      padding-top: 20px;
+      
+  }
+  .profilebutton{
+      margin-right: 5px;
+      margin-left: 5px;
+      background-color:#1565c0;
+      border-radius: 4px;
+      border-color:#ccc;
+  }
+  p{
+      margin-top: 5px;
+      text-align: center;
+  }
+  #loginemail{
+      font-size: medium;
+  }
+  

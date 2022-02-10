@@ -1,0 +1,103 @@
+.column {
+    float: left;
+    padding: 10px;
+    height: 4000px; /* Should be removed. Only for demonstration */
+  }
+  
+  .left {
+    width: 25%;
+  }
+  .right {
+    width: 75%;
+  }
+  .card{
+      width:75%;
+      margin-top: 4cm;
+      margin-left: 1cm;
+      height:370px;
+      justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  }
+.quiz_card{
+  width:25%;
+     height:250px;
+      justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+  
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .header{
+      padding: 0.3cm;
+      height: 1.5cm;
+      color: #1565c0;
+      font-size:xx-large;
+      font-weight: 700;
+  }
+  
+  #pimage{
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    
+
+  }
+ 
+  #username{
+    margin-top: 15px;
+    margin-bottom:3px ;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+       color: rgb(15, 14, 19);
+  }
+  #email{
+    margin-top: 1px;
+    text-align: center;
+    margin-bottom:30px ;
+    font-size: small;
+     color: rgb(15, 14, 19);
+  }
+  #input[type="file"]{
+    display:none;
+  }
+ .image-upload{
+   margin-left: 5px;
+   color:#1565c0 ;
+   cursor: pointer;
+ }
+ .MuiSvgIcon-root{
+   margin-right: 5px;
+ }
+ .profilebutton{
+   color: white;
+   width: 50%;
+   
+ }
+ h5{
+   padding-top: 3cm;
+ }
+ #brainQuiz{
+  margin-top: 20px;
+  width:70%;
+  margin-left:40px ;
+  height:60%;
+  
+}
+ .link{
+   text-decoration: none;
+  margin-left: 85px;
+  margin-top: 40px;
+  font-size:x-large;
+  font-weight: 800;
+  color:#1565c0 ;
+ }
