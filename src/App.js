@@ -3,11 +3,11 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link
+  
 } from "react-router-dom";
 
 import MainPage from "./components/dashboard/mainpage";
-
+import NewWords from "./components/NewWords";
 import LoginForm from "./components/forms/loginform";
 import Quiz from "./components/Quiz/Quiz.js";
 function App() {
@@ -19,6 +19,7 @@ function App() {
          
       <Route exact path="/dashboard" element={<MainPage/>}/>
       <Route exact path="/quiz" element={<Quiz/>}/>
+      <Route exact path="/new" element={<NewWords/>}/>
 
       </Routes>
     </Router> 
